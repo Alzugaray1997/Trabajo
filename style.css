@@ -1,0 +1,237 @@
+summary {
+
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+
+.container2 {
+
+
+    width: 40%;
+    height: 60vh;
+    padding: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.imagen {
+
+    height: 100px;
+    width: 60px;
+
+}
+
+
+.fijo {
+    display: flex;
+    width: 30%;
+    color: white;
+
+
+}
+
+.parrafo {
+
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 5px
+}
+
+.fondo {
+    background-color: #2e2f27;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+
+}
+
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+
+}
+
+
+.flecha {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    background-color: rgb(65, 65, 65);
+    border: none;
+    cursor: pointer;
+}
+
+.clase {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+    height: 60vh;
+    padding: 50px;
+
+}
+
+.bloque h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.bloque p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+
+}
+
+.button {
+    height: 40px;
+    background: white;
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+}
+
+.accordion {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1d;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+
+
+
+}
+
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+#naranja {
+    background-color: #e48624;
+}
+
+#azul {
+    background-color: #016974;
+}
+
+#verde {
+
+    background-color: #00403f;
+}
+
+#button1 {
+    color: #e48624;
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: rgb(250, 206, 125);
+    color: #1b1b1d;
+}
+
+#button2 {
+    color: #016974;
+    cursor: pointer;
+}
+
+#button2:hover {
+    background-color: #569fa8;
+    color: #1b1b1d;
+}
+
+#button3 {
+    color: #00403f;
+    cursor: pointer;
+}
+
+#button3:hover {
+    background-color: #549b9a;
+    color: #1b1b1d;
+}
+
+
+
+
+#black {
+    background-color: black;
+}
+
+
+
+#mypopup {
+    color: white;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        padding: 100px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .bloque {
+        width: 100%;
+    }
+
+    .accordion {
+        display: none !important;
+
+    }
+
+    .contenedor {
+        display: none !important;
+    }
+
+
+}
